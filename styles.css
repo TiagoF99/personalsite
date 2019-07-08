@@ -82,7 +82,7 @@
         background-color: #fafafa;
       }
       #skill-list {
-        font-size: 60%;
+        font-size: 12px;
         text-align: left;
         margin: 10px 0 0 0;
       }
@@ -229,7 +229,7 @@
         font-size: 13px;
       }
       #about-me {
-        font-size: 60%;
+        font-size: 12px;
       }
       #resume {
         width: 126px;
@@ -254,7 +254,7 @@
         margin-right: 0;
         padding: 1.25%;
         position: relative;
-        font-size: 75%;
+        font-size: 12px;
         text-align: center;
         max-width: 100%
       }
@@ -271,7 +271,7 @@
       #coursera {
         background-color: #f8f9fa;
         padding: 1.25%;
-        font-size: 75%;
+        font-size: 12px;
         position: relative;
         text-align: center;
       }
@@ -324,7 +324,7 @@
         font-weight: bold;
       }
       #footer-info {
-        font-size: 50%;
+        font-size: 12px;
         text-align: center;
         font-weight: bold;
         padding-bottom: 5px;
@@ -354,15 +354,15 @@
         font-weight: bold;
       }
       .card-body li {
-        font-size: 80%;
+        font-size: 12px;
       }
       #figure {
-        font-size: 50%;
+        font-size: 12px;
         text-align: center;
         font-weight: bold;
       }
       #words {
-        font-size: 70% !important;
+        font-size: 12px !important;
       }
 
       @media (min-width: 993px){
@@ -382,7 +382,7 @@
       }
       @media (min-width: 577px) and (max-width: 768px) {
         #words {
-          font-size: 50%;
+          font-size: 12px;
         }
       }
       @media (max-width: 576px) {
@@ -400,7 +400,7 @@
         }
         #project-info {
           padding: 0;
-          font-size: 90%;
+          font-size: 12px;
         }
         #uoft-photo {
           margin-bottom: 15px;
@@ -409,6 +409,6 @@
           margin-bottom: 15px;
         }
         #words {
-          font-size: 75%;
+          font-size: 12px;
         }
       }
