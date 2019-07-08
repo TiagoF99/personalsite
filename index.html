@@ -20,17 +20,19 @@
     </script>
   
     
-    <!-- Required meta tags -->
+    <!-- meta tags for SEO optimization -->
     <meta charset="utf-8">
+    <meta name="description" content="Personal Website of Tiago Ferreira.">
+    <meta name="keywords" content="HTML,CSS,JavaScript, Uoft, Computer, Science, Student, University, Toronto, statistics, Portugal">
+    <meta name="author" content="Tiago Ferreira">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- add own style sheet in css folder -->
     <link rel="stylesheet" href="styles.css">
-
     <title>Tiago Ferreira</title>
-    
+  
   </head>
 
   <body>
@@ -194,7 +196,7 @@
               <div class='row'>
 
                 <div id='project-photo' class='col-xs-12 col-sm-3'>
-                <img src="image/sapient.png" alt="Responsive image" class="img-fluid rounded">
+                <img src="image/sapient.png" alt="Publicis Sapient Logo" class="img-fluid rounded">
                 </div>
                 <div id='project-info' class='col-xs-12 col-sm-8'>
                   <div class='project-title'>Publicis Sapient | June 2019 - Present | Software Development Engineer Intern</div>
@@ -210,7 +212,7 @@
                 <hr id='project-hrz' class='col-12'>
 
                 <div id='project-photo' class='col-xs-12 col-sm-3'>
-                <img src="image/web-dev-photo.png" alt="Responsive image" class="img-fluid rounded">
+                <img src="image/web-dev-photo.png" alt="Photo of Pre Pharmacy Club webpage" class="img-fluid rounded">
                 </div>
                 <div id='project-info' class='col-xs-12 col-sm-8'>
                   <div class='project-title'>University of Toronto Pre-Pharmacy Club | December 2018 - Present | Software Developer</div>
@@ -229,7 +231,7 @@
 
 
                 <div id='project-photo' class='col-xs-12 col-sm-3'>
-                  <a href='https://www.timhortons.com/ca/en/index.php' target='_blank'><img src="image/tims.jpg" class="img-fluid rounded" alt="Responsive image"></a>
+                  <a href='https://www.timhortons.com/ca/en/index.php' target='_blank'><img src="image/tims.jpg" class="img-fluid rounded" alt="photo of tim hortons store front"></a>
                 </div>
                 <div id='project-info' class='col-xs-12 col-sm-8'>
                   <div class='project-title'>Tim Hortons | May 2016 - September 2017 | Team Member</div>
@@ -246,7 +248,7 @@
                 <hr id='project-hrz' class='col-xs-12'>
 
                 <div id='project-photo' class='col-xs-12 col-sm-3'>
-                  <a href='http://www.eileenroofing.com/'><img src="image/roofing1.jpg" alt="Responsive image" class="img-fluid rounded">
+                  <a href='http://www.eileenroofing.com/'><img src="image/roofing1.jpg" alt="Responsive image" class="photo of two roofers on a roof, roofing">
                 </div></a>
                 <div id='project-info' class='col-xs-12 col-sm-8'>
                   <div class='project-title'>Eileen Roofing Inc. | May 2018 - September 2018 | Laborer</div>
@@ -273,7 +275,8 @@
                   <ol style="padding: 0; list-style-type: none;">
                     <li v-for="todo in projectList">
                       <div style="position: relative; float: left;" id='project-photo' class='col-xs-12 col-sm-3'>
-                        <img v-bind:src="todo.image" class="img-fluid rounded" alt="Responsive image">
+                        <img v-bind:src="todo.image" class="img-fluid rounded" alt="photo of project; either the logo or the actual
+                        platform">
                       </div>
                       <div style="position: relative; float: left;" id='project-info' class='col-xs-12 col-sm-8'>
                         <div class='project-title'>{{todo.title}}</div>
