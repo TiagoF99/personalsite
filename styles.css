@@ -1,0 +1,414 @@
+* {
+         box-sizing: border-box;
+      }
+
+      #start {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+      }
+      #start > .row {
+        height: inherit;
+      }
+      #start-splash {
+        /*
+        background-image: url("image/splash.jpg");
+        */
+        background-color: #ffc400;
+        height: fill;
+      }
+      #welcome {
+        color: white;
+        font-weight: bold;
+        font-size: 600%;
+        text-align:center;
+        animation: mymove 3s;
+        position: relative;
+        top: 100px;
+        font-family: "Calisto MT";
+      }
+      #start-photo {
+        width: 30%;
+        /*
+        *animation: photomove 3s;
+        * transform: rotate(10deg);
+        */
+        position: relative;
+        top: 150px;
+      }
+
+      @keyframes mymove {
+        from {top: -50px;}
+        to {top: 175px;}
+      }
+
+      @keyframes photomove {
+        from {right: -400px;}
+        to {right: 0px;}
+      }
+
+      #start-info {
+        background-color: #fafafa;
+      }
+      #titles {
+        font-weight: bold;
+        font-family: "Impact";
+        font-size: 300%;
+        color: #373737;
+      }
+      #main-info {
+        margin: 70px;
+        position: relative;
+        top: 150px;
+        padding-right: 50px;
+      }
+      #mainbody {
+        position: sticky;
+        top:0;
+        z-index: 1;
+        margin-bottom: 0;
+      }
+      .nav {
+        background-color: white;
+        border-bottom: solid #00000020 .5px;
+      }
+      .nav-item {
+        margin: 10px;
+        font-size: 150%;
+      }
+      #second-body {
+        height: 100vh;
+        padding: 0;
+        background-color: #fafafa;
+      }
+      #skill-list {
+        font-size: 60%;
+        text-align: left;
+        margin: 10px 0 0 0;
+      }
+      @media (min-width: 997px) {
+        #collapsenav {
+          display: none;
+        }
+        #nav {
+          display: flex;
+        }
+        .dropdown-menu {
+          display: block;
+          margin-top: 50px;
+          position: relative;
+          top:0;
+          left: auto;
+        }
+      }
+
+      @media (max-width: 996px) {
+        #collapsenav {
+          display: block;
+        }
+        #nav {
+          display: none;
+        }
+        #start {
+          height: 100%;
+        }
+        #second-body {
+          height: 100%;
+        }
+        #main-info {
+          top: 0px;
+        }
+        #edu-info {
+          height: -webkit-fill-available;
+        }
+        .dropdown-menu {
+          display: none;
+        }
+        #start-splash {
+          background-color: #fafafa;
+        }
+        #info-section {
+          height: -webkit-fill-available;
+        }
+          
+      }
+      #collapsenav .text-muted {
+        font-size: 140%;
+
+      }
+
+      #collapsenav .text-muted:hover {
+        background-color: white;
+        color: black !important;
+      }
+      #project-info > div {
+        font-size: 110%;
+      }
+      #two {
+      margin-top: 120px;
+      }
+      .progress-bar {
+        background-color: #373737;
+      }
+      #info-section {
+        padding-left: 0; 
+        padding-right: 0;
+      }
+      #nav-menu {
+        padding: 0
+      }
+      #menu-one {
+        background-color: #ffc400;
+      }
+
+      /*
+      https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidenav_buttons
+      -> Different Type of menu on the side
+      */
+
+
+
+
+
+
+
+
+
+
+
+      #photo {
+        background-image: url(image/skyline.jpg);
+        height: 400px;
+      }
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      #name {
+        font-weight: bold;
+        color: #373737;
+        margin-top: 40px;
+      }
+      #personal {
+        font-size: 150%;
+        font-weight: bold;
+      }
+      #name-container {
+        font-size: 400%;
+        text-align: center; 
+        bottom: 110px;
+        position: relative;
+        margin: 0% 5% 0% 5%;
+        width: 90%;
+        color: #343a40;
+      }
+      #header-info {
+        padding: 10px;
+        font-size: 20px;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      #last-top {
+        text-align: center;
+        text-decoration: none;
+        margin: 10px;
+      }
+      #lisboa {
+        background-image: url(lisboa.jpg);
+      }
+      #tiago-photo {
+        height: 150px;
+        width: 150px;
+        margin-top: 10px;
+      }
+      #into-text {
+        font-size: 13px;
+      }
+      #about-me {
+        font-size: 60%;
+      }
+      #resume {
+        width: 126px;
+        background-color: #ffc400;
+        border-color: #ffc400;
+        margin-top: 10px;
+      }
+      .sub-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 200%;
+        margin-top: 10px;
+      }
+      #body {
+        position: relative;
+        bottom: 100px;
+      }
+      #uoft-info {
+        background-color: #fafafa;
+        color: black;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 1.25%;
+        position: relative;
+        font-size: 75%;
+        text-align: center;
+        max-width: 100%
+      }
+      #education {
+        width: 90%;
+        padding: 0;
+        margin-left: 5%;
+        margin-right: 2.5%;
+        margin-bottom: 48px;
+      }
+      #education > div {
+        margin: 0;
+      }
+      #coursera {
+        background-color: #f8f9fa;
+        padding: 1.25%;
+        font-size: 75%;
+        position: relative;
+        text-align: center;
+      }
+      #online {
+        text-align: center;
+        font-weight: bold;
+        font-size: 120%;
+      }
+      #online > div {
+        text-align: center;
+      }
+      #course-name {
+        text-align: center;
+      }
+      #course-name > div{
+        text-align: center;
+      }
+      #work {
+        position: relative;
+        padding-right: 2.5%;
+        padding-left: 0px;
+      }
+      #work-experience {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 48px;
+      }
+      #work-experience > .row > .roof {
+        padding-left: 2.5%;
+      }
+      #projects {
+        position: relative;
+        padding: 0;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 48px;
+      }
+      #project-photo {
+        padding-left: 0;
+      }
+      #project-hrz {
+        width: 97.5%;
+        flex: none;
+      }
+      .project-title {
+        font-weight: bold;
+      }
+      #footer-info {
+        font-size: 50%;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 5px;
+        padding-left: 0;
+      }
+      #footer-hr {
+        margin-bottom: 0;
+      }
+      #extra-info {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+        position: relative;
+        bottom: 40px;
+      }
+      .card {
+        padding-top: 15px;
+      }
+      .card-body {
+        padding: 15px 0 0 0;
+      }
+      .card-body > ul {
+        padding: 15px;
+      }
+      .card-body > div {
+        font-weight: bold;
+      }
+      .card-body li {
+        font-size: 80%;
+      }
+      #figure {
+        font-size: 50%;
+        text-align: center;
+        font-weight: bold;
+      }
+      #words {
+        font-size: 70% !important;
+      }
+
+      @media (min-width: 993px){
+        #line1 {
+          border-top-width: 0;
+        }
+         #uoft-info {
+        font-size: .9vw;
+        }
+        #coursera {
+          font-size: .9vw;
+          margin-top: 0;
+        }
+      }
+      @media (min-width: 767px) and (max-width: 992px) {
+    
+      }
+      @media (min-width: 577px) and (max-width: 768px) {
+        #words {
+          font-size: 50%;
+        }
+      }
+      @media (max-width: 576px) {
+        #work-experience .tims {
+          padding-right: 0;
+        }
+        #work-experience > .row > .roof {
+        padding-left: 0;
+        }
+        #project-photo {
+          padding-right: 0;
+        }
+        #project-hrz {
+          width: 90%;
+        }
+        #project-info {
+          padding: 0;
+          font-size: 90%;
+        }
+        #uoft-photo {
+          margin-bottom: 15px;
+        }
+        #uoft-info {
+          margin-bottom: 15px;
+        }
+        #words {
+          font-size: 75%;
+        }
+      }
