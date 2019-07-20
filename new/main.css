@@ -84,7 +84,7 @@
   font-size: 60px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 479px) {
   .overlay a {
   	font-size: 40px;
   }
@@ -115,7 +115,6 @@
 #name {
 	color: #FF5252;
 	font-weight: bold;
-	font-size: 70px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -129,23 +128,45 @@
 	width: 90%;
 	border-color: white;
 }
-/*
-#logos {
-	text-align: center;
+@media (min-width: 1376px) {
+	#intro {
+		margin: 3% 25% 0 25%;
+	}
 }
-#logos img {
-	height: 40px;
-	margin: 10px;
+@media (max-width: 1375px) {
+	#intro {
+		margin: 3% 15% 0 15%;
+	}
 }
-*/
+@media (min-width: 992px) {
+	#name {
+		font-size: 70px;
+	}
+	#intro {
+		font-size: 110%;
+	}
+}
+@media (max-width: 991px) {
+	#name {
+		font-size: 50px;
+	}
+	#intro {
+		font-size: 90%;
+	}
+}
+@media (max-width: 767px) {
+	#line {
+		display: none;
+	}
+}
+
 
 #intro {
 	text-align: center;
 	color: white;
 	font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    margin: 3% 25% 0 25%;
-    font-size: 115%;
+    margin: 3% 15% 0 15%;
 }
 #main-button {
 	text-align: center;
@@ -312,7 +333,7 @@ FOR TRANSITION ON EACH
 }
 .image {
 	object-fit: cover;
-	height: -webkit-fill-available;
+	height: inherit;
 }
 #project-cont {
 	padding: 0;
