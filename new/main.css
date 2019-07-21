@@ -159,22 +159,19 @@
 	#main-button {
     	margin: 3% 25% 0 25%;
     }
-    #project-row {
-    	margin: 50px;
-    }
     .text {
     	top: 45%;
-    	font-size: 17px;
+    	font-size: 19px;
     }
     .project-title {
     	font-size: 25px;
     }
+    #footer-row {
+    	margin: 0 0 0 20px;
+    }
 }
 @media (max-width: 767px) {
 	#line {
-		display: none;
-	}
-	#empty-footer-space {
 		display: none;
 	}
 	#footer-bottom {
@@ -195,20 +192,23 @@
     #intro {
     	margin-left: 10%;
     	margin-right: 10%;
-    	font-size: 70%;
+    	font-size: 80%;
     }
     #main-button {
     	margin: 3% 10% 0 10%;
     }
-    #project-row {
-    	margin: 20px
-    }
     .text {
     	top: 50%;
-    	font-size: 15px;
+    	font-size: 17px;
     }
     .project-title {
     	font-size: 20px;
+    }
+    .project-big {
+    	font-size: 50px !important;
+    }
+    #footer-row {
+    	margin: 0 -15px 0 -15px;
     }
 }
 
@@ -355,7 +355,7 @@ FOR TRANSITION ON EACH
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -428,7 +428,7 @@ FOR TRANSITION ON EACH
 	background-color: #FF5252;
 }
 #footer-title {
-	color: #222222;
+	color: white;
 	font-weight: bold;
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
