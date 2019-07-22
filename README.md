@@ -8,6 +8,7 @@ www.tiagoferreira.ca/
 HTML
 CSS
 -Bootstrap
+-AOS
 JavaScript
 - Vue.JS
 
