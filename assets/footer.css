@@ -1,9 +1,9 @@
 /*Footer Section */
 #footer {
-	background-color: #FF5252;
+	background-color: #222222;
 }
 #footer-title {
-	color: white;
+	color: #ff5252;
 	font-weight: bold;
 	text-align: left;
 	font-family: 'Montserrat', sans-serif;
@@ -12,10 +12,10 @@
 }
 #footer-link a {
 	text-decoration: none;
-	color: #222222
+	color: white;
 }
 #footer-link {
-	color: #222222;
+	color: white;
 	font-family: font-family: 'Roboto', sans-serif;
   	font-weight: 100;
   	font-size: 180%;
@@ -23,7 +23,7 @@
   	margin-top: 15px;
 }
 #footer-link a:hover {
-	border-bottom: solid 3px white;
+	border-bottom: solid 3px #ff5252;
 }
 #footer-line {
 	padding: 0;
@@ -34,7 +34,7 @@
 }
 #footer-bottom {
 	text-align: center;
-	color: #222222;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 20px;
 	padding-bottom: 5px;
