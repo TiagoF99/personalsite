@@ -14,7 +14,6 @@ ul li:before {
   margin-left: -1em;
 }
 
-
 /* Nav for back button section*/
 #nav-home {
 	position: static;
@@ -36,43 +35,36 @@ i {
 
 /*Beginning of experience section*/
 #experience-title {
-	margin: 20px 50px 50px 50px;
-	font-size: 500%;
 	color: #222222;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-}
-#experience-cont {
-	margin: 50px;
 }
 #experience-header {
 	border-left: solid 1px #222222;
 }
 #experience-position {
-	font-size: 150%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 50px;
 	color: #ff5252;
 }
 #experience-place {
-	font-size: 130%;
 	color: #222222;
 	font-family: 'Roboto', sans-serif;
-	font-weight: bold;	
+	font-weight: bold;
+	padding-left: 50px;	
 }
 #experience-date {
-	font-size: 110%;
 	color: #222222;
 	font-family: 'Roboto', sans-serif;
 	color: grey;
+	padding-left: 50px;
 }
 #experience-info {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #222222;
-	font-size: 150%;
 }
 
 /*Extra Large Devices*/
@@ -85,81 +77,70 @@ i {
 
 /*Medium Devices*/
 @media (min-width: 768px) {
-    #footer-row {
-    	margin: 0 0 0 20px;
+    #experience-cont {
+    	padding: 50px;
+    }
+    #experience-title {
+		font-size: 400%;
+		padding: 20px 50px 50px 50px;
+	}
+	#experience-position {
+	font-size: 150%;
+	}
+	#experience-place {
+		font-size: 130%;
+	}
+	#experience-date {
+		font-size: 110%;
+	}
+	#experience-info {
+		font-size: 150%;
+	}
+    #sap-info {
+    	margin-top: 0;
+    }
+    #course-div {
+    	margin-bottom: 50px;
+    }
+    .margin-fix {
+    	margin-top: 50px;
     }
 }
 @media (max-width: 767px) {
-	#footer-bottom {
-		font-size: 70%;
-	}
-	#footer-link {
-		font-size: 140%;
-	}
-	#footer-title {
-  	font-size: 170%;
+    #experience-cont {
+    	padding: 20px 50px 20px 50px;
     }
-    #footer-row {
-    	margin: 0 -15px 0 -15px;
+    #experience-title {
+		font-size: 270%;
+		padding: 20px 50px 20px 50px;
+	}
+	#experience-position {
+	font-size: 130%;
+	}
+	#experience-place {
+		font-size: 110%;
+	}
+	#experience-date {
+		font-size: 100%;
+	}
+	#experience-info {
+		font-size: 120%;
+	}
+    #sap-info {
+    	margin-top: 50px;
+    }
+    #course-div {
+    	margin-bottom: 20px;
+    }
+    .margin-fix {
+    	margin-top: 20px;
     }
 }
 
 /*SMALL DEVICES */
 @media (max-width: 479px) {
-  #footer-bottom {
-		font-size: 50%;
-  }
-  #footer-link {
-		font-size: 100%;
-  }
-  #footer-title {
-  	font-size: 210%;
-  }
 }
 
 
 
 
-
-/*Footer Section */
-#footer {
-	background-color: #FF5252;
-}
-#footer-title {
-	color: white;
-	font-weight: bold;
-	text-align: left;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 250%;
-	margin-top: 20px;
-}
-#footer-link a {
-	text-decoration: none;
-	color: #222222
-}
-#footer-link {
-	color: #222222;
-	font-family: font-family: 'Roboto', sans-serif;
-  	font-weight: 100;
-  	font-size: 180%;
-  	text-align: left;
-  	margin-top: 15px;
-}
-#footer-link a:hover {
-	border-bottom: solid 3px white;
-}
-#footer-line {
-	padding: 0;
-	margin-top: 20px;
-	width: 100%;
-	border-color: white;
-	margin-bottom: 0;
-}
-#footer-bottom {
-	text-align: center;
-	color: #222222;
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 20px;
-	padding-bottom: 10px;
-	font-size: 90%;
-}

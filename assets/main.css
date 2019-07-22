@@ -117,7 +117,7 @@
 /*Extra Large Devices*/
 @media (min-width: 1376px) {
 	#intro {
-		margin: 3% 25% 0 25%;
+		margin: 2% 25% 0 25%;
 	}
 	#reel {
 		font-size: 700%;
@@ -125,7 +125,7 @@
 }
 @media (max-width: 1375px) {
 	#intro {
-		margin: 3% 15% 0 15%;
+		margin: 2% 15% 0 15%;
 	}
 	#reel {
 		font-size: 500%;
@@ -157,59 +157,44 @@
 		margin-right: 15%;
 	}
 	#main-button {
-    	margin: 3% 25% 0 25%;
-    }
-    .text {
-    	top: 45%;
-    	font-size: 19px;
-    }
-    .project-title {
-    	font-size: 25px;
-    }
-    #footer-row {
-    	margin: 0 0 0 20px;
-    }
+    margin: 2% 25% 0 25%;
+  }
+  .text {
+    top: 45%;
+    font-size: 19px;
+  }
+  .project-title {
+    font-size: 25px;
+  }
 }
 @media (max-width: 767px) {
 	#line {
 		display: none;
 	}
-	#footer-bottom {
-		font-size: 70%;
-	}
-	#footer-link {
-		font-size: 140%;
-	}
-	#footer-title {
-  	font-size: 170%;
-    }
-    #reel {
-    	font-size: 400%;
-    }
-    #name {
-    	font-size: 40px;
-    }
-    #intro {
-    	margin-left: 10%;
-    	margin-right: 10%;
-    	font-size: 80%;
-    }
-    #main-button {
-    	margin: 3% 10% 0 10%;
-    }
-    .text {
-    	top: 50%;
-    	font-size: 17px;
-    }
-    .project-title {
-    	font-size: 20px;
-    }
-    .project-big {
-    	font-size: 50px !important;
-    }
-    #footer-row {
-    	margin: 0 -15px 0 -15px;
-    }
+  #reel {
+    font-size: 400%;
+  }
+  #name {
+    font-size: 40px;
+  }
+  #intro {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 80%;
+  }
+  #main-button {
+    margin: 2% 10% 0 10%;
+  }
+  .text {
+    top: 50%;
+    font-size: 17px;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .project-big {
+    font-size: 50px !important;
+  }
 }
 
 /*SMALL DEVICES */
@@ -222,17 +207,11 @@
     top: 15px;
     right: 35px;
   }
-  #footer-bottom {
-		font-size: 50%;
-  }
-  #footer-link {
-		font-size: 100%;
-  }
-  #footer-title {
-  	font-size: 210%;
-  }
   #reel {
   	font-size: 300%;
+  }
+  #intro {
+    font-size: 70%;
   }
 }
 
@@ -242,7 +221,7 @@
 	color: white;
 	font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-bottom: 0;
 }
 #main-button {
@@ -422,47 +401,4 @@ FOR TRANSITION ON EACH
   	position: relative;
   	top: 15%;
   }
-
-/*Footer Section */
-#footer {
-	background-color: #FF5252;
-}
-#footer-title {
-	color: white;
-	font-weight: bold;
-	text-align: left;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 250%;
-	margin-top: 20px;
-}
-#footer-link a {
-	text-decoration: none;
-	color: #222222
-}
-#footer-link {
-	color: #222222;
-	font-family: font-family: 'Roboto', sans-serif;
-  	font-weight: 100;
-  	font-size: 180%;
-  	text-align: left;
-  	margin-top: 15px;
-}
-#footer-link a:hover {
-	border-bottom: solid 3px white;
-}
-#footer-line {
-	padding: 0;
-	margin-top: 20px;
-	width: 100%;
-	border-color: white;
-	margin-bottom: 0;
-}
-#footer-bottom {
-	text-align: center;
-	color: #222222;
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 20px;
-	padding-bottom: 10px;
-	font-size: 90%;
-}
 
