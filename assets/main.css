@@ -221,7 +221,7 @@
     font-size: 85%;
   }
   #main-button {
-    margin: 2% 10% 2% 10%;
+    padding-bottom: 20px;
   }
 }
 
