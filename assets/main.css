@@ -402,20 +402,6 @@ FOR TRANSITION ON EACH
 #project-cont {
 	padding: 15px;
 }
-#reel {
-	text-align: center;
-	font-family: font-family: 'Roboto', sans-serif;
-  	font-weight: 100;
-  	position: relative;
-  	top: 15%;
-  }
-
-
-
-
-  /*TEST*/
-
-
 #some a {
   text-decoration: none;
 }
