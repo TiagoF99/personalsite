@@ -18,7 +18,7 @@
 	color: white;
 	font-family: font-family: 'Roboto', sans-serif;
   	font-weight: 100;
-  	font-size: 180%;
+  	font-size: 190%;
   	text-align: left;
   	margin-top: 15px;
 }
@@ -52,7 +52,7 @@
 		font-size: 70%;
 	}
 	#footer-link {
-		font-size: 150%;
+		font-size: 170%;
 	}
 	#footer-title {
   	font-size: 170%;
@@ -67,7 +67,7 @@
 		font-size: 50%;
   }
   #footer-link {
-		font-size: 120%;
+		font-size: 150%;
   }
   #footer-title {
   	font-size: 210%;
