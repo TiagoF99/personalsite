@@ -410,10 +410,18 @@ FOR TRANSITION ON EACH
   font-family: font-family: 'Roboto', sans-serif;
   font-weight: 100;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
+  padding: 0 8px 0 8px;
 }
 #some a:hover {
   border-bottom: solid 3px #ff5252;
+}
+#project-hover-info {
+  text-align: center;
+  font-weight: 100;
+  color: #222222;
+  font-family: font-family: 'Roboto', sans-serif;
+  padding: 0 10px 0 10px;
 }
 
 
