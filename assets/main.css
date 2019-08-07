@@ -93,7 +93,7 @@
   margin: 6px 10px;
 }
 #nav {
-	height: 15%;
+	height: 70px;
 }
 
 #name {
@@ -201,13 +201,6 @@
     font-size: 220%;
   }
 }
-
-
-@media (min-width: 480px) {
-  #main {
-    height: 100vh;
-  }
-}
 /*SMALL DEVICES */
 @media (max-width: 479px) {
   .overlay a {
@@ -231,6 +224,16 @@
   }
   .text {
     font-size: 15px;
+  }
+}
+@media (min-width: 350px) {
+  #main {
+    height: 100vh;
+  }
+}
+@media (max-width: 349px) {
+  #main {
+    height: 1005;
   }
 }
 
