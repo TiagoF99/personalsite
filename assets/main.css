@@ -233,7 +233,7 @@
 }
 @media (max-width: 349px) {
   #main {
-    height: 1005;
+    height: 100%;
   }
 }
 
