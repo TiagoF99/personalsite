@@ -1,7 +1,6 @@
 * {
 	box-sizing: border-box;
 }
-
 /*Loading Screen*/
 #load-screen {
 	width: 100%;
@@ -134,10 +133,10 @@
 /*Large Devices*/
 @media (min-width: 992px) {
 	#name {
-		font-size: 70px;
+		font-size: 4vw;
 	}
 	#intro {
-		font-size: 110%;
+		font-size: 1.5vw;
 	}
 }
 @media (max-width: 991px) {
@@ -201,6 +200,11 @@
     font-size: 220%;
   }
 }
+@media (min-width: 480px) {
+  #main {
+    height: 100vh
+  }
+}
 /*SMALL DEVICES */
 @media (max-width: 479px) {
   .overlay a {
@@ -225,18 +229,11 @@
   .text {
     font-size: 15px;
   }
-}
-@media (min-width: 350px) {
-  #main {
-    height: 100vh;
-  }
-}
-@media (max-width: 349px) {
   #main {
     height: 100%;
+    min-height: max-content;
   }
 }
-
 
 #intro {
 	text-align: center;
