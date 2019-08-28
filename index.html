@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--My style sheet -->
     <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/second.css">
     <link rel="stylesheet" type="text/css" href="assets/footer.css">
 
     <title>Tiago Ferreira</title>
@@ -46,8 +47,9 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <!-- Overlay content -->
         <div class="overlay-content">
-          <a style="color: #FF5252;">Home</a>
-          <a href="secondary.html" target="_blank" onclick="moreinfoclk()" rel="noopener">Experience</a>
+          <a href="#experience-title" onclick="moreinfoclk()" rel="noopener">Experience</a>
+          <a href="#projects" onclick="moreinfoclk()" rel="noopener">Projects</a>
+          <a href="#course-title" onclick="moreinfoclk()" rel="noopener">Course Work</a>
         </div>
       </div>
 
@@ -88,7 +90,45 @@
 
       <div id="main-button">
         <a href="#footer"><button type="button" class="btn btn-outline-primary">Get In Touch</button></a>
-        <a href="aug-9-resume.pdf" target="_blank" rel="noopener"><button type="button" class="btn btn-outline-primary" onclick="this.blur()">Resume</button></a>
+        <a href="aug-28-resume.pdf" target="_blank" rel="noopener"><button type="button" class="btn btn-outline-primary" onclick="this.blur()">Resume</button></a>
+      </div>
+    </div>
+
+    <div id="experience-title" class=".work">Experience</div>
+
+    <div class="container" id="experience-cont">
+      <div class="row">
+
+        
+        <div class="col-xs-12 col-md-3" id="experience-header" data-aos="fade-up">
+          <div id="experience-position">Software Development Engineer Intern</div>
+          <div id="experience-place">Publicis Sapient</div>
+          <div id="experience-date">June 2019 - Aughust 2019</div>
+        </div>
+        <div class="col-xs-12 col-md-9" data-aos="fade-up" id="sap-info">
+          <ul id="experience-info">
+            <li>Increased product revenue by scraping competitor data to forecast product prices using SQL, time series algorithms (ARIMA), & open source Python libraries (Statsmodels & NLTK)</li>
+            <li>Developed a language toggle and did front-end testing using AngularJS for $5 billion + banking client, in agile environment</li>
+            <li>Exploited Natural Language Processing to Engineer a contextualized chat bot by leveraging Dialogflow & Dask on a dataset of 2+ Million rows. Developed for a major car brand website, projected time of user flow improvement of 25% </li>
+            <!-- <span style="color: #ff5252;">matplotlib, seaborn, and plotly</span> -->
+          </ul>
+        </div>  
+
+        <div class="col-xs-12 col-md-3 margin-fix" id="experience-header" 
+        data-aos="fade-up">
+          <div id="experience-position">Software Developer</div>
+          <div id="experience-place">University of Toronto Pre-Pharmacy Club</div>
+          <div id="experience-date">June 2019 - September 2019</div>
+        </div>
+        <div class="col-xs-12 col-md-9 margin-fix" data-aos="fade-up">
+          <ul id="experience-info">
+            <li>Designed and developed an online platform for 500+ students using HTML/CSS, JavaScript, Bootstrap, and Vue.js</li>
+            <li>Optimized bounce rate by 40%, by improving information architecture through regularly updating content</li>
+            <li>Analyzed data on Google Analytics using inferential statistical techniques and reported the research findings to the client</li>   
+          </ul>
+        </div>  
+        
+        
       </div>
     </div>
     
@@ -160,9 +200,9 @@
                 <div class="project-title">ReelML</div>
                 <div class="text">
                   <div>Languages: Python, HTML/CSS, JavaScript</div>
-                  <div>Frameworks: React, Fetch, Flask</div>
-                  <div>Libraries: Numpy, Pandas, SciPy, matplotlib</div>
-                  <div>Tools: Git</div>
+                  <div>Frameworks: Fetch, Flask</div>
+                  <div>Libraries: Pandas, Scikit-Learn, Keras</div>
+                  <div>Tools: Git, Tensorflow</div>
                 </div>
                 <hr class="project-line">
                 <div class="project-button">
@@ -234,9 +274,33 @@
       </div>
 
       <hr style="width: 95%;">
+    </div>
 
-      <div id="some">
-        Interested about me? Visit my <a target="_blank" href="secondary.html" style="color: #FF5252;" rel="noopener">experience</a> page for more information!
+    <!--Online Course Work -->
+    <div id="course-title" class=".course">Online Course Work</div>
+    <div class="container" id="experience-cont">
+      <div class="row">
+        <!--Vue.js Component -->
+        <div id="app-4">
+          <ol style="padding: 0; list-style-type: none;">
+            <li v-for="course in courseList" id="course-div">
+              <div class="col-xs-12" id="experience-header" data-aos="fade-up">
+                <div id="experience-position">{{course.title}}</div>
+                <div id="experience-place">{{course.comp}}</div>
+                <div id="experience-date">{{course.date}}</div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div id="experience-title">Relevant Degree Course Work</div>
+    <div class="container" id="experience-cont">
+      <div class="row">
+        <div class="col-xs-12" id="experience-header" data-aos="fade-up">
+          <div id="experience-place">Computer Organization | Data Structures and Analysis | Databases | Intro to Artificial Intelligence | Intro to Machine Learning | Introduction to the Theory of Computation | Linear Algebra | Methods Of Data Analysis | Multivariable calculus | Neural Networks and Deep Learning | Probability and statistics | Software Design</div>
+        </div>
       </div>
     </div>
 
@@ -260,11 +324,17 @@
 
       <hr id="footer-line">
       <div id="footer-bottom">
-        Designed and Developed by Tiago Ferreira &copy 2019; Last Updated: 2019-08-15
+        Designed and Developed by Tiago Ferreira &copy 2019; Last Updated: 2019-08-28
       </div>
     </div>
 
     
     <script type="text/javascript" src="assets/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script type="text/javascript" src="assets/onlcoursecomponent.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

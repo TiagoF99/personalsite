@@ -39,6 +39,11 @@ i {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 }
+#course-title {
+	color: #222222;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
 #experience-header {
 	border-left: solid 1px #222222;
 }
@@ -84,6 +89,10 @@ i {
 		font-size: 400%;
 		padding: 20px 50px 50px 50px;
 	}
+	#course-title {
+		font-size: 400%;
+		padding: 20px 50px 50px 50px;
+	}
 	#experience-position {
 	font-size: 150%;
 	}
@@ -111,6 +120,10 @@ i {
     	padding: 20px 50px 20px 50px;
     }
     #experience-title {
+		font-size: 270%;
+		padding: 20px 50px 20px 50px;
+	}
+	#course-title {
 		font-size: 270%;
 		padding: 20px 50px 20px 50px;
 	}
