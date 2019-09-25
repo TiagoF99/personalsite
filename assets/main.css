@@ -115,10 +115,15 @@
 @media (min-width: 1376px) {
 	#intro {
 		margin: 2% 25% 0 25%;
+    font-size: 2vw !important;
 	}
 	#reel {
 		font-size: 700%;
 	}
+  #main-button button {
+    width: 225px !important;
+    height: 50px;
+  }
 }
 @media (max-width: 1375px) {
 	#intro {
@@ -132,7 +137,7 @@
 /*Large Devices*/
 @media (min-width: 992px) {
 	#name {
-		font-size: 4vw;
+		font-size: 4.5vw;
 	}
 	#intro {
 		font-size: 1.5vw;
