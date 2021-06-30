@@ -1,7 +1,7 @@
 # personalsite
 My personal site that features information about me and my portfolio
 
-www.tiagoferreira.ca/
+https://tiagof99.github.io/personalsite/
 
 ## Stack
 ```
